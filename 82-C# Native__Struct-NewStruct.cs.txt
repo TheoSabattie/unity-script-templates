@@ -3,7 +3,7 @@
 ///   Date   : #DATE#
 ///-----------------------------------------------------------------
 
-namespace #ASSEMBLY_NAMESPACE# {
+namespace #NAMESPACE# {
 
     public struct #SCRIPTNAME# {
 

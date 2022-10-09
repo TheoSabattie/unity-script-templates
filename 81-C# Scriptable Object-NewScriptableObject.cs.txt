@@ -5,7 +5,7 @@
 
 using UnityEngine;
 
-namespace #ASSEMBLY_NAMESPACE# {
+namespace #NAMESPACE# {
 
     [CreateAssetMenu(menuName = "#PRODUCT#/#SCRIPTNAME#")]
     public class #SCRIPTNAME# : ScriptableObject {

@@ -5,7 +5,7 @@
 
 using UnityEngine;
 
-namespace #ASSEMBLY_NAMESPACE#
+namespace #NAMESPACE#
 {
     public class #SCRIPTNAME# : PropertyAttribute
     {
