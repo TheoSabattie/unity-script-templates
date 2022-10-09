@@ -1,0 +1,23 @@
+///-----------------------------------------------------------------
+///   Author : #DEVELOPER_NAME#                 
+///   Date   : #DATE#
+///-----------------------------------------------------------------
+
+using UnityEditor;
+using UnityEngine;
+
+#START_NAMESPACE_TARGETED_TYPE#
+[CustomPropertyDrawer(typeof(#TARGETED_TYPE#))]
+public class #SCRIPTNAME# : PropertyDrawer
+{
+    public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+    {
+        // Draw what you want with EditorGUI
+    }
+
+    public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
+    {
+        return EditorGUIUtility.singleLineHeight; // To tune in
+    }
+}
+#END_NAMESPACE_TARGETED_TYPE#

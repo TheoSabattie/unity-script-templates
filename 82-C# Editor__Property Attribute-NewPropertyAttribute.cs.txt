@@ -1,0 +1,13 @@
+﻿///-----------------------------------------------------------------
+///   Author : #DEVELOPER_NAME#                 
+///   Date   : #DATE#
+///-----------------------------------------------------------------
+
+using UnityEngine;
+
+namespace #ASSEMBLY_NAMESPACE#
+{
+    public class #SCRIPTNAME# : PropertyAttribute
+    {
+    }
+}

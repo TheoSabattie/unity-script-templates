@@ -1,0 +1,14 @@
+///-----------------------------------------------------------------
+///   Author : #DEVELOPER_NAME#                    
+///   Date   : #DATE#
+///-----------------------------------------------------------------
+
+using UnityEngine;
+
+namespace #ASSEMBLY_NAMESPACE# {
+
+    [CreateAssetMenu(menuName = "#PRODUCT#/#SCRIPTNAME#")]
+    public class #SCRIPTNAME# : ScriptableObject {
+
+    }
+}

@@ -1,0 +1,23 @@
+///-----------------------------------------------------------------
+///   Author : #DEVELOPER_NAME#                 
+///   Date   : #DATE#
+///-----------------------------------------------------------------
+
+using UnityEditor;
+using UnityEngine;
+
+#START_NAMESPACE_TARGETED_TYPE#
+[CustomEditor(typeof(#TARGETED_TYPE#))]
+public class #SCRIPTNAME# : Editor
+{
+    public sealed override void OnInspectorGUI()
+    {
+        base.OnInspectorGUI();
+        serializedObject.Update();
+
+        // Do what you want
+
+        serializedObject.ApplyModifiedProperties();
+    }
+}
+#END_NAMESPACE_TARGETED_TYPE#
